@@ -135,10 +135,21 @@ body {
    position: absolute;
    background-color: var(--white);
    padding: .9em;
-   font-size: 1.5em;
    border-radius: 15px;
    align-self: flex-end;
    margin-top: -210px;
+   display: flex;
+   gap: .5em;
+   align-items: center;
+}
+#ballon-storage-left h2 {
+   font-size: 2em;
+}
+#ballon-storage-left #gb-left {
+   font-size: .9em;
+   font-weight: 700;
+   text-transform: uppercase;
+   color: var(--grayish-blue);
 }
 
 /* Mobile */
